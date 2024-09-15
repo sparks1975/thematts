@@ -1,0 +1,110 @@
+[
+    {
+        "img": "/assets/img/gallery/cf.jpg",
+        "title": "Carfluent",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, React, Tina CMS, Netlify",
+        "link": "https://carfluent.io",
+        "link_label": "carfluent.io",
+        "alt_text": "Carfluent"
+    },
+    {
+        "img": "/assets/img/gallery/htf.jpg",
+        "title": "Home Theater Forum",
+        "role": "Design/Development/Implementation",
+        "technology": "HTML, SCSS, PHP, WordPress, Custom Theme Development",
+        "link": "https://hometheaterforum.com",
+        "link_label": "hometheatreforum.com",
+        "alt_text": "Home Theater Forum"
+    },
+    {
+        "img": "/assets/img/gallery/markup.jpg",
+        "title": "Markup Framework",
+        "role": "Design/Development/Implementation",
+        "technology": "HTML, SCSS, JS, Custom Framework Design",
+        "link": "https://markup.doctorlogic.com",
+        "link_label": "markup.doctorlogic.com",
+        "alt_text": "Markup Framework"
+    },
+    {
+        "img": "/assets/img/gallery/h2bev.jpg",
+        "title": "H2 Bev",
+        "role": "Design/Development/Implementation",
+        "technology": "HTML, SCSS, JS, Shopify, Liquid, Shopify Custom Development",
+        "link": "https://h2bev.com",
+        "link_label": "h2bev.com",
+        "alt_text": "H2 Bev"
+    },
+    {
+        "img": "/assets/img/gallery/dsm.jpg",
+        "title": "Dynamic School of Music",
+        "role": "Design/Branding/Implementation/Squarespace/Custom Template Design",
+        "technology": "HTML, SCSS, JS",
+        "link": "https://www.dynamicschoolofmusic.com/",
+        "link_label": "dynamicschoolofmusic.com",
+        "alt_text": "Dynamic School of Music"
+    },
+    {
+        "img": "/assets/img/gallery/dl.jpg",
+        "title": "DoctorLogic",
+        "role": "Design/Development/Implementation",
+        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
+        "link": "https://doctorlogic.com",
+        "link_label": "doctorlogic.com",
+        "alt_text": "DoctorLogic"
+    },
+    {
+        "img": "/assets/img/gallery/dl2.jpg",
+        "title": "DoctorLogic",
+        "role": "Design/Development/Implementation",
+        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
+        "link": "https://doctorlogic.com",
+        "link_label": "doctorlogic.com",
+        "alt_text": "DoctorLogic"
+    },
+    {
+        "img": "/assets/img/gallery/gn.jpg",
+        "title": "GN Exhibits +",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, JS, Jekyll, Liquid, GSAP, ScrollMagic",
+        "link": "https://gnexhibitsplus.com/",
+        "link_label": "gnexhibitsplus.com",
+        "alt_text": "GN Exhibits +"
+    },
+    {
+        "img": "/assets/img/gallery/bhd.jpg",
+        "title": "The Brooklyn Hot Dog Company",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Shopify, Liquid",
+        "link": "http://brooklynhotdogcompany.com",
+        "link_label": "brooklynhotdogcompany.com",
+        "alt_text": "The Brooklyn Hot Dog Company"
+    },
+    {
+        "img": "/assets/img/gallery/bhd2.jpg",
+        "title": "The Brooklyn Hot Dog Company",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Shopify, Liquid",
+        "link": "http://brooklynhotdogcompany.com",
+        "link_label": "brooklynhotdogcompany.com",
+        "alt_text": "The Brooklyn Hot Dog Company"
+    },
+    {
+        "img": "/assets/img/gallery/schmear.jpg",
+        "title": "Schmear Market & Bakery",
+        "role": "Development/Implementation",
+        "technology": "HTML, SCSS, Jekyll, Liquid",
+        "link": "http://schmearmarket.com",
+        "link_label": "schmearmarket.com",
+        "alt_text": "Schmear Market & Bakery"
+    },
+    {
+        "img": "/assets/img/gallery/albright.jpg",
+        "title": "Albright Plastic Surgery",
+        "role": "Design/Development",
+        "technology": "HTML, LESS, JS",
+        "link": "https://albrightplasticsurgery.com/",
+        "link_label": "albrightplasticsurgery.com/",
+        "alt_text": "Albright Plastic Surgery"
+    }
+]

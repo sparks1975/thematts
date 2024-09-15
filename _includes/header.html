@@ -1,0 +1,26 @@
+<header class="header inner--20">
+	<div class="header__wrapper max-width--1600 flex justify-center align-center">
+		<div class="header__logo flex align-center">
+			<img src="/assets/img/thematts_header.svg" alt="">
+		</div>
+		<div class="header__cta">
+			<a href="#" class="btn">Let's Get Started</a>
+		</div>
+	</div>
+</header>
+<script>
+	// Select the header element
+	const header = document.querySelector('header');
+
+	// Listen to the scroll event
+	window.addEventListener('scroll', () => {
+	// Check if the page is scrolled more than 50px
+	if (window.scrollY > 50) {
+		// Add the class to the header
+		header.classList.add('scrolled');
+	} else {
+		// Remove the class if less than 50px scrolled
+		header.classList.remove('scrolled');
+	}
+	});
+</script>

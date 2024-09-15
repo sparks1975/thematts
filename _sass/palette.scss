@@ -1,0 +1,17 @@
+$color-1: #000 !default;
+$color-2: #fff !default;
+$color-3: #42210b !default;
+$color-4: #f15a24 !default;
+$color-5: #eedfcd !default;
+$color-6: #000000 !default;
+
+@font-face {
+    font-family: 'ddc';
+    src: url('/assets/fonts/DDCHardware-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'cabin';
+    src: url('/assets/fonts/Cabin.woff2') format('woff2');
+}
+

@@ -1,0 +1,15 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@charset "utf-8";
+
+@import "palette"; // palette
+@import "mixins"; // mixins
+@import "mq"; // media queries
+@import "markup_framework"; // markup framework
+@import "layout"; // layout styles
+@import "header"; // header
+@import "home"; // home
+
+

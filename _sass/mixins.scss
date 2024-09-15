@@ -1,0 +1,12 @@
+@mixin grid($add-gap: true) {
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+
+    @if $add-gap {
+        grid-row-gap: 10px;
+        grid-column-gap: 10px;
+    }
+
+    @content;
+}
+

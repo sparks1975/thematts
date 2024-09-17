@@ -7,12 +7,17 @@ ul {
 }
 
 li {
-    padding: 12px 0 12px 68px;
+    padding: 48px 0 24px;
     list-style: none;
     font-size: 1.18rem;
     position: relative;
     display: flex;
     flex-direction: column;
+
+    @include tablet-min {
+        padding: 12px 0 12px 68px;
+    }
+    
 
     span {
         font-family: 'ddc', sans-serif;
@@ -32,12 +37,19 @@ li {
     &::before {
         content: '';
         position: absolute;
-        top: 50%;
+        top: 0;
         left: 0;
-        transform: translateY(-50%);
-        width: 56px;
-        height: 56px;
+        width: 42px;
+        height: 42px;
         background: url('/assets/img/thematts_symbol.svg') center center/contain no-repeat;
+
+        @include tablet-min {
+            width: 56px;
+            height: 56px;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+        
     }
 }
 

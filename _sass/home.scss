@@ -74,7 +74,7 @@ li {
 }
 
 .image_text {
-    padding: 40px 60px 0;
+    padding: 40px 40px 0;
 
     @include tablet-min {
         padding: 120px 48px 0 84px;
@@ -139,20 +139,28 @@ li {
             background: $color-4;
             border-radius: 24px;
             position: absolute;
-            top: -42px;
-            bottom: 32px;
-            left: -42px;
-            right: 42px;
+            top: -22px;
+            bottom: 12px;
+            left: -22px;
+            right: 22px;
             z-index: -1;
+
+            @include tablet-min {
+                top: -42px;
+                bottom: 32px;
+                left: -42px;
+                right: 42px;
+            }
+            
         }
     }
 }
 
 .image_text--reverse {
-    padding: 40px 60px 0;
+    padding: 40px 40px 0;
 
     @include tablet-min {
-        padding: 120px 84px 0 48px;
+        padding: 120px 44px 0 24px;
     }
     
 
@@ -167,8 +175,14 @@ li {
     .image_text__image {
 
         &::after {
-            right: -42px;
-            left: 42px;
+            right: -22px;
+            left: 22px;
+
+            @include tablet-min {
+                right: -42px;
+                left: 42px;
+            }
+            
         }
     }
 }

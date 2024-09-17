@@ -31,7 +31,11 @@ li {
     border-top-right-radius: 42px;
     position: relative;
     overflow: hidden;
-    margin-bottom: 48px;
+    
+    @include tablet-min {
+        margin-bottom: 48px;
+    }
+    
 
     &__video {
         position: absolute;

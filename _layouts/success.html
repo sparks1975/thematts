@@ -1,0 +1,42 @@
+---
+---
+
+<!doctype html>
+<html>
+  <head>
+    {% include head.html %}
+
+  </head>
+  <body class="palette-bg--color-5">
+    {% include header.html %}
+    <main class="markup flex align-center justify-center">
+        {{ content }}
+    </main>
+    <div class="form_wrapper">
+      <span>© 20{{ site.time | date: '%y' }} - The Matts</span>
+    </div>
+
+  </body>
+  <!-- <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="/assets/js/jquery.magnific-popup.js"></script> -->
+  <script src="/assets/js/main.js"></script>
+  <!-- <script>
+    	$(document).ready(function() {
+        $('.gallery__item').magnificPopup({
+            type:'image',
+            image: {
+                verticalFit: false,
+                markup: '<div class="mfp-figure">' +
+        '<div class="mfp-close"></div>' +
+        '<div class="mfp-title"></div>' +
+        '<div class="mfp-img"></div>' +
+        '<div class="mfp-bottom-bar">' +
+        '<div class="mfp-counter"></div>' +
+        '</div>' +
+        '</div>',
+        titleSrc: 'data-title'
+            }
+        });
+        });
+  </script> -->
+</html>

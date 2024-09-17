@@ -60,6 +60,9 @@ li {
     h1 {
         color: $color-2;
         font-size: clamp(2rem, 5vw, 3rem);
+        text-align: center;
+        line-height: 1;
+        padding: 24px;
     }
     
     img {
@@ -69,29 +72,21 @@ li {
     }
 }
 
-.image_text--reverse {
-
-    .image_text__text {
-
-        @include tablet-min {
-            order: -1;
-        }
-        
-    }
-
-    .image_text__image {
-        img {
-            right: -42px;
-            left: auto;
-        }
-    }
-}
-
 .image_text {
-    padding: 120px 24px 0;
+    padding: 60px 60px 0;
+
+    @include tablet-min {
+        padding: 120px 48px 0 84px;
+    }
+    
 
     &:last-of-type {
-        padding-bottom: 120px;
+        padding-bottom: 40px;
+
+        @include tablet-min {
+            padding-bottom: 120px;
+        }
+        
     }
 
     &__wrapper {
@@ -102,25 +97,80 @@ li {
         
     }
 
+    &__text {
+
+        @include tablet-wide-min {
+          grid-column: auto / span 12
+        }
+        
+
+        &.inner--20 {
+            padding: 20px 0;
+    
+            @include tablet-min {
+              padding: 20px;
+            }
+            
+        }
+
+    }
+
     &__image {
-        background: $color-4;
-        border-radius: 24px;
-        min-height: 500px;
         position: relative;
+        aspect-ratio: 4 / 3;
+        border-radius: 24px;
+
+        @include tablet-wide-min {
+            grid-column: auto / span 12
+        }
 
         img {
+                   position: absolute;
+                   inset: 0;
+                   width: 100%;
+                   height: 100%;
+                   object-fit: cover;
+                   border-radius: 24px; 
+        }
+
+        &::after {
+            content: '';
+            background: $color-4;
+            border-radius: 24px;
             position: absolute;
             top: -42px;
             bottom: 32px;
             left: -42px;
-            width: 100%;
-            height: 100%;
-            border-radius: 24px;
-            
+            right: 42px;
+            z-index: -1;
         }
     }
 }
 
+.image_text--reverse {
+    padding: 60px 60px 0;
+
+    @include tablet-min {
+        padding: 120px 84px 0 48px;
+    }
+    
+
+    .image_text__text {
+
+        @include tablet-min {
+            order: -1;
+        }
+        
+    }
+
+    .image_text__image {
+
+        &::after {
+            right: -42px;
+            left: 42px;
+        }
+    }
+}
 
 .gallery {
 	position: relative;

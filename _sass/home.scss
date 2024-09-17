@@ -7,16 +7,37 @@ ul {
 }
 
 li {
-    padding: 12px 0;
-    line-height: 1.6;
+    padding: 12px 0 12px 68px;
     list-style: none;
     font-size: 1.18rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 
     span {
         font-family: 'ddc', sans-serif;
-        padding-right: 8px;
+        padding: 8px 0;
         color: $color-3;
-        line-height: 1;
+        line-height: 1 !important;
+    }
+
+    q {
+        line-height: 1.6;
+
+        &::before {
+            display: none;
+        }
+    }
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+        width: 56px;
+        height: 56px;
+        background: url('/assets/img/thematts_symbol.svg') center center/contain no-repeat;
     }
 }
 

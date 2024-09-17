@@ -187,6 +187,83 @@ li {
     }
 }
 
+.testimonials {
+    padding: 24px;
+
+    @include tablet-min {
+      padding: 60px 48px 0;
+    }
+    
+
+    &__wrapper {
+        @include grid;
+        max-width: 1600px;
+        margin: 0 auto;
+        grid-row-gap: 32px;
+
+        @include tablet-wide-min {
+          gap: 32px;
+        }
+        
+    }
+}
+
+.testimonial {
+    grid-column: auto / span 24;
+    border: solid 12px $color-3;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 24px 48px 48px;
+    position: relative;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+
+    &::after {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 80%;
+        background: url('/assets/img/thematts_hands.svg') center center/contain no-repeat;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        opacity: .05;
+        z-index: 1;
+    }
+
+    @include tablet-wide-min {
+      grid-column: auto / span 8;
+    }
+
+    img {
+        width: 64px;
+        height: 64px;
+        border-radius: 100%;
+        position: absolute;
+        bottom: 24px;
+        right: 24px;
+        z-index: 2;
+    }
+
+    &__content {
+        font-weight: 500;
+        position: relative;
+        z-index: 2;
+    }
+
+    &__author {
+        font-family: 'ddc', sans-serif;
+        color: $color-4;
+        margin-top: auto;
+        position: relative;
+        z-index: 2;
+    }
+    
+}
+
 .gallery {
 	position: relative;
 	padding: 100px 24px 40px;

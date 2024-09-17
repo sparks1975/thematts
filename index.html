@@ -42,6 +42,21 @@ layout: default
             </div>
     </div>
 </div>
+<div class="testimonials">
+    <div class="testimonials__wrapper">
+        {% for testimonial in site.data.testimonials %}
+        <div class="testimonial">
+            <img src="{{ testimonial.img }}" alt="{{ testimonial.name }}">
+            <div class="testimonial__content">
+                <p>{{ testimonial.text }}</p>
+            </div>
+            <div class="testimonial__author">
+                <div>{{ testimonial.name }}</div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 <!-- <div class="gallery">
 	<h2>Recent Work</h2>
 	<div class="gallery__items">

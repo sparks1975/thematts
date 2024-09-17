@@ -16,6 +16,7 @@ li {
         font-family: 'ddc', sans-serif;
         padding-right: 8px;
         color: $color-3;
+        line-height: 1;
     }
 }
 
@@ -73,7 +74,7 @@ li {
 }
 
 .image_text {
-    padding: 60px 60px 0;
+    padding: 40px 60px 0;
 
     @include tablet-min {
         padding: 120px 48px 0 84px;
@@ -148,7 +149,7 @@ li {
 }
 
 .image_text--reverse {
-    padding: 60px 60px 0;
+    padding: 40px 60px 0;
 
     @include tablet-min {
         padding: 120px 84px 0 48px;

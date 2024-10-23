@@ -1,0 +1,20 @@
+[
+    {
+        "img": "/assets/img/research.svg",
+        "img_alt": "Research",
+        "title": "Research & Planning",
+        "description": "We'll take a deep dive into your specific industry and audience to understand their needs and preferences."
+    },
+    {
+        "img": "/assets/img/design.svg",
+        "img_alt": "Design",
+        "title": "Design & Experience",
+        "description": "We will create a purposeful, user-friendly design that enhances user experience while championing your brand."
+    },
+    {
+        "img": "/assets/img/development.svg",
+        "img_alt": "Develop",
+        "title": "Development & Testing",
+        "description": "Our development process includes choosing the correct tech stack, coding, and rigorous testing to ensure a seamless experience."
+    }
+]

@@ -57,6 +57,18 @@ layout: default
         {% endfor %}
     </div>
 </div>
+<div class="approach pushup">
+    <h2>Our Approach</h2>
+    <div class="approach__items">
+        {% for item in site.data.approach %}
+        <div class="approach__item">
+            <img src="{{ item.img }}" alt="{{ item.img_alt }}">
+            <h3>{{ item.title }}</h3>
+            <p>{{ item.description }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 <!-- <div class="gallery">
 	<h2>Recent Work</h2>
 	<div class="gallery__items">

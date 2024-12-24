@@ -1,0 +1,20 @@
+{
+  "name": "thematts",
+  "version": "1.0.0",
+  "description": "- https://jekyllrb.com/docs/installation/macos/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "Bundle exec Jekyll serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparks1975/thematts.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sparks1975/thematts/issues"
+  },
+  "homepage": "https://github.com/sparks1975/thematts#readme"
+}

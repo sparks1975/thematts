@@ -1,29 +1,36 @@
 ---
 ---
 
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
     {% include head.html %}
-
   </head>
   <body class="palette-bg--color-5">
     {% include header.html %}
-    <main class="markup">
-        {{ content }}
-    </main>
-    <div class="form_wrapper">
+    <main class="markup">{{ content }}</main>
+    <div class="form_wrapper test">
       <h2>Ready to get started?</h2>
-      <form id="consultation-form" class="feed-form" method="post" action="/success.html" name="contact" netlify>
-        <input required="" placeholder="Name" type="text">
-        <input name="phone" required="" placeholder="Phone number">
-        <input name="email" required="" placeholder="E-mail" type="email">
-        <textarea name="message" required="" placeholder="How can we help?"></textarea>
+      <form
+        id="consultation-form"
+        class="feed-form"
+        method="post"
+        action="/success.html"
+        name="contact"
+        netlify
+      >
+        <input required="" placeholder="Name" type="text" />
+        <input name="phone" required="" placeholder="Phone number" />
+        <input name="email" required="" placeholder="E-mail" type="email" />
+        <textarea
+          name="message"
+          required=""
+          placeholder="How can we help?"
+        ></textarea>
         <button class="btn">Get in touch</button>
       </form>
       <span>© 20{{ site.time | date: '%y' }} - The Matts</span>
     </div>
-
   </body>
   <!-- <script src="//code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="/assets/js/jquery.magnific-popup.js"></script> -->

@@ -4,4 +4,5 @@
 
 # commands
 
-Bundle exec Jekyll serve
+`bundle install`
+`Bundle exec Jekyll serve`

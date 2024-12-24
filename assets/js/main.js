@@ -58,11 +58,16 @@ window.onhashchange = function () {
   //     location.pathname + location.search + location.hash,
   //   ]);
 
-  window.dataLayer = window.dataLayer || [];
+  //   window.dataLayer = window.dataLayer || [];
 
-  window.dataLayer.push({
-    event: "page_view",
-    pageUrl: location.pathname + location.search + location.hash,
-    pageTitle: `${document.title} - ${location.hash}`,
+  //   window.dataLayer.push({
+  //     event: "page_view",
+  //     pageUrl: location.pathname + location.search + location.hash,
+  //     pageTitle: `${document.title} - ${location.hash}`,
+  //   });
+
+  gtag("event", "page_view", {
+    page_title: `${document.title} - ${location.hash}`,
+    page_location: location.pathname + location.search + location.hash,
   });
 };

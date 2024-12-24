@@ -65,9 +65,10 @@ window.onhashchange = function () {
   //     pageUrl: location.pathname + location.search + location.hash,
   //     pageTitle: `${document.title} - ${location.hash}`,
   //   });
-
+  const pageTitle = `${document.title} - ${location.hash}`;
+  console.log("testing-page_view", pageTitle);
   gtag("event", "page_view", {
-    page_title: `${document.title} - ${location.hash}`,
+    page_title: pageTitle,
     page_location: location.pathname + location.search + location.hash,
   });
 };

@@ -1,0 +1,78 @@
+---
+description: 
+globs: 
+---
+
+# Project Rules
+
+## File Structure
+- Jekyll-based project structure
+- Assets organized in dedicated folders (/assets/js/, /assets/css/, /assets/img/, etc.)
+- Sass partials in _sass directory
+- Data files in _data directory
+- Includes in _includes directory
+
+## Coding Standards
+
+### HTML
+- Use semantic HTML5 elements
+- Maintain proper indentation (2 spaces)
+- Use double quotes for attributes
+- Include descriptive alt text for images
+- Follow BEM naming convention for classes
+
+### CSS/SCSS
+- Follow BEM methodology
+- Use variables for colors ($color-1, $color-2, etc.)
+- Use mixins for media queries
+- Maintain modular SCSS structure
+- Use clamp() for responsive typography
+- Follow mobile-first approach
+- Use standardized spacing units (24px, 48px, 60px)
+
+### JavaScript
+- Use ES6+ syntax
+- Use const/let instead of var
+- Follow camelCase naming convention
+- Use descriptive variable names
+- Implement IntersectionObserver for animations
+
+### Jekyll
+- Use front matter for page metadata
+- Organize data in _data directory using JSON format
+- Use includes for reusable components
+- Follow Jekyll's naming conventions for files and directories
+
+### Performance
+- Optimize images and media files
+- Implement lazy loading where appropriate
+- Minify CSS and JavaScript in production
+- Use appropriate image formats (SVG for icons, WebP/JPEG for photos)
+
+### Accessibility
+- Maintain proper heading hierarchy
+- Ensure sufficient color contrast
+- Include ARIA labels where necessary
+- Ensure keyboard navigation support
+
+### Version Control
+- Use meaningful commit messages
+- Follow Git branch naming conventions
+- Keep commits focused and atomic
+- Document major changes in readme.md
+
+### Documentation
+- Include setup instructions
+- Document dependencies and requirements
+- Comment complex code sections
+
+### Browser Support
+- Support modern browsers
+- Implement graceful degradation
+- Use appropriate vendor prefixes
+- Test across multiple devices and browsers
+
+# Your rule content
+
+- You can @ files here
+- You can use markdown but dont have to
